@@ -22,9 +22,9 @@ namespace UniverseNUnitTest.Pruebas_Unitarias.Controller
         public  RebeldsController _controller;
        private  StringCollection _invalidRebelCollection;
         private  StringCollection _validRebelCollection;
-        private  IRepositoryRebelds _repository;
+        private IRepositoryRebelds _repository;
         private  DevelopmentLog _developmentLog;
-#pragma warning disable CS0649 // Field 'RebeldControllerTest._log' is never assigned to, and will always have its default value null
+#pragma warning disable CS0649 // Field 'RebeldControllerTest._log' bvj is never assigned to, and will always have its default value null
         private  readonly ILog _log;
 #pragma warning restore CS0649 // Field 'RebeldControllerTest._log' is never assigned to, and will always have its default value null
 
